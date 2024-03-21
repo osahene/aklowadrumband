@@ -12,7 +12,7 @@
               <!-- Grid column -->
               <div class="col-md-12 col-lg-4 col-xl-4 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">
-                  Company name
+                  Aklowa Drum Band
                 </h6>
                 <p class="text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -92,7 +92,7 @@
                   <a href="tel:+ 01 234 567 89">+ 01 234 567 89</a>
                 </p>
                 <p>
-                  <i class="fas fa-envelope mr-3"></i>
+                  <font-awesome-icon :icon="['fas', 'envelope-open-text']" />
                   <a href="mailto:tbc@tbc.co.uk">tbc@tbc.co.uk</a>
                 </p>
                 <p><i class="fas fa-home mr-3"></i> Lorem Ipsum</p>
@@ -164,27 +164,19 @@
               <!-- Grid column -->
               <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                 <!-- Facebook -->
-                <a
-                  class="btn btn-outline-light btn-floating m-1 text-white"
-                  role="button"
+                <a class="btn btn-outline-light btn-floating m-1" role="button"
                   ><i class="fab fa-facebook-f"></i
                 ></a>
                 <!-- Twitter -->
-                <a
-                  class="btn btn-outline-light btn-floating m-1 text-white"
-                  role="button"
+                <a class="btn btn-outline-light btn-floating m-1" role="button"
                   ><i class="fab fa-twitter"></i
                 ></a>
                 <!-- Google -->
-                <a
-                  class="btn btn-outline-light btn-floating m-1 text-white"
-                  role="button"
+                <a class="btn btn-outline-light btn-floating m-1" role="button"
                   ><i class="fab fa-google"></i
                 ></a>
                 <!-- Instagram -->
-                <a
-                  class="btn btn-outline-light btn-floating m-1 text-white"
-                  role="button"
+                <a class="btn btn-outline-light btn-floating m-1" role="button"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>

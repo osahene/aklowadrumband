@@ -1,11 +1,12 @@
 <template>
   <div>
-    <navBar />
+    <navBarss />
     <AppHeader />
     <!-- <AppAside /> -->
-    <PartsAbout />
-    <PartsService />
-    <PartsPortFolio />
+    <About />
+    <Service />
+    <PortFolio />
+    <Albums />
     <slot />
     <AppFooter />
   </div>

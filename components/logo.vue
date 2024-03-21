@@ -1,21 +1,24 @@
 <template>
   <div>
-    <p class="main_text">
-      <span>A</span>
-      <span>K</span>
-      <span>L</span>
-      <span>O</span>
-      <span>W</span>
-      <span>A</span>
-      <!-- <span>D</span>
-      <span>R</span>
-      <span>U</span>
-      <span>M</span>
-      <span>B</span>
-      <span>A</span>
-      <span>N</span>
-      <span>D</span> -->
-    </p>
+    <ul class="navbar-nav">
+      <img class="logos" src="../assets/img/proper/s-l960.svg" alt="" />
+      <p class="main_text">
+        <span>A</span>
+        <span>K</span>
+        <span>L</span>
+        <span>O</span>
+        <span>W</span>
+        <span>A</span>
+        <!-- <span>D</span>
+        <span>R</span>
+        <span>U</span>
+        <span>M</span>
+        <span>B</span>
+        <span>A</span>
+        <span>N</span>
+        <span>D</span> -->
+      </p>
+    </ul>
   </div>
 </template>
 <script setup>
