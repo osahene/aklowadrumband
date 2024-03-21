@@ -1,0 +1,28 @@
+.footers{
+  background-color: #0C0E1D;
+  font-size: 14px;
+  .underline{
+    position: relative;
+    display:inline-block;
+    &:after {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 31px;
+      height: 2px;
+      background-color: #64B87E;
+      bottom: -10px;
+     }
+  }
+  p{
+    color: #A1AEB7;
+  }
+  a{
+    color: #A1AEB7;
+    text-decoration: none;
+     transition: all 0.5s ease-in-out;
+    &:hover{
+      color: #64B87E;
+    }
+  }
+}
