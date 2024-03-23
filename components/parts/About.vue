@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="page-section bg-primary" id="about">
+    <section class="page-section bg-primary py-5" id="about">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-8 text-center">

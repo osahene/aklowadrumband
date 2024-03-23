@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul class="navbar-nav">
-      <img class="logos" src="../assets/img/proper/s-l960.svg" alt="" />
+      <img class="logos" src="../assets/img/proper/aklowa logo.svg" alt="" />
       <p class="main_text">
         <span>A</span>
         <span>K</span>
