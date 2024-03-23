@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "deploy": "gh-pages -d dist",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -16,6 +17,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@hypernym/nuxt-gsap": "^2.4.2",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",
     "nuxt": "^3.11.0",
     "nuxt-icons": "^3.2.1",

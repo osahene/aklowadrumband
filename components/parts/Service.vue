@@ -10,7 +10,7 @@
               <div class="mb-2"><img class="serv_img fs-1 text-primary" src="../../assets/img/proper/party-.svg"></img></div>
               <h3 class="h4 mb-2">African Dance</h3>
               <p class="text-muted mb-0">
-                We are well know for giving splendid display of pure african dance at both local and international events.
+                We are well known for giving splendid display of pure african dance at both local and international events.
               </p>
             </div>
           </div>
