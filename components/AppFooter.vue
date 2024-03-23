@@ -10,92 +10,33 @@
             <!--Grid row-->
             <div class="row">
               <!-- Grid column -->
-              <div class="col-md-12 col-lg-4 col-xl-4 mx-auto mt-3">
+              <div class="col-md-12 col-lg-4 col-xl-4 mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">
                   Aklowa Drum Band
                 </h6>
                 <p class="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit.
+                  We are available to you for all your events; both local and
+                  international. Get in touch with us for the best of African
+                  perfromances.
                 </p>
               </div>
+
               <!-- Grid column -->
               <hr class="w-100 clearfix d-md-none" />
               <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold underline">
-                  Why Us
-                </h6>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-              <hr class="w-100 clearfix d-md-none" />
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold underline">
-                  Product Range
-                </h6>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-              <hr class="w-100 clearfix d-md-none" />
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold underline">
-                  Useful links
-                </h6>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-                <p>
-                  <a href="#">Lorem Ipsum</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-              <hr class="w-100 clearfix d-md-none" />
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <div class="col-md-8 col-lg-8 col-xl-6 ms-6 mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold underline">
                   Contact
                 </h6>
                 <p>
-                  <i class="fas fa-phone mr-3"></i>
-                  <a href="tel:+ 01 234 567 89">+ 01 234 567 89</a>
+                  <font-awesome-icon :icon="['fas', 'phone']" />
+                  <a href="tel:+ 01 234 567 89">+ 61 423 420 465</a>
                 </p>
                 <p>
                   <font-awesome-icon :icon="['fas', 'envelope-open-text']" />
-                  <a href="mailto:tbc@tbc.co.uk">tbc@tbc.co.uk</a>
+                  <a href="mailto:tbc@tbc.co.uk">info@aklowadb.au</a>
                 </p>
-                <p><i class="fas fa-home mr-3"></i> Lorem Ipsum</p>
+                <!-- <p><i class="fas fa-home mr-3"></i> Lorem Ipsum</p> -->
               </div>
               <!-- Grid column -->
             </div>
@@ -103,47 +44,7 @@
           </section>
           <!-- Section: Links -->
           <!-- Section: terms and conditions -->
-          <section class="">
-            <!--Grid row-->
-            <div class="row mt-5">
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mt-2">
-                <p>
-                  <small><a href="#">Terms & Conditions</a></small>
-                </p>
-              </div>
-              <!-- Grid column -->
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mt-2">
-                <p>
-                  <a href="#">Modern Slavery</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mt-2">
-                <p>
-                  <a href="#">Cookie Policy</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mt-2">
-                <p>
-                  <a href="#">Privacy Policy</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mt-2">
-                <p>
-                  <a href="#">Accessibility</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-            </div>
-            <!--Grid row-->
-          </section>
+
           <!-- Section: Links -->
           <hr class="my-3" />
           <!-- Section: Copyright -->
@@ -154,8 +55,8 @@
                 <!-- Copyright -->
                 <p>
                   <small
-                    >© Copyright 2022 ABC Limited, Registered no: 0000000
-                    (England) Registered office: Lorem Ipsum</small
+                    >© Copyright 2024 Aklowa Drum Band, Registered no: 0000000
+                    (Australia) Registered office: Lorem Ipsum</small
                   >
                 </p>
                 <!-- Copyright -->
@@ -165,20 +66,20 @@
               <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                 <!-- Facebook -->
                 <a class="btn btn-outline-light btn-floating m-1" role="button"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
+                  ><font-awesome-icon :icon="['fab', 'youtube']"
+                /></a>
                 <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" role="button"
-                  ><i class="fab fa-twitter"></i
-                ></a>
+                <a class="btn btn-outline-light btn-floating m-1" role="button">
+                  <font-awesome-icon :icon="['fab', 'facebook']" />
+                </a>
                 <!-- Google -->
                 <a class="btn btn-outline-light btn-floating m-1" role="button"
-                  ><i class="fab fa-google"></i
-                ></a>
+                  ><font-awesome-icon :icon="['fab', 'instagram']"
+                /></a>
                 <!-- Instagram -->
                 <a class="btn btn-outline-light btn-floating m-1" role="button"
-                  ><i class="fab fa-instagram"></i
-                ></a>
+                  ><font-awesome-icon :icon="['fab', 'twitter']"
+                /></a>
               </div>
               <!-- Grid column -->
             </div>

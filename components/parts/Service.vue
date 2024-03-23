@@ -27,7 +27,7 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+              <div class="mb-2"><img class="serv_img fs-1 text-primary" src="../../assets/img/proper/dancing.svg"></img></div>
               <h3 class="h4 mb-2">Contemporary Dance</h3>
               <p class="text-muted mb-0">
                 We are not stuck with only the old genre. We perform contemporary dance with has a blend of both the african and the foreign twist.
@@ -36,10 +36,10 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-              <h3 class="h4 mb-2">Dance Performance</h3>
+              <div class="mb-2"><img class="serv_img fs-1 text-primary" src="../../assets/img/proper/microphone-.svg"></img></div>
+              <h3 class="h4 mb-2">Contemporary Songs</h3>
               <p class="text-muted mb-0">
-                Is it really open source if it's not made with love?
+                Aside the traditional, we perform a class of our contemporary songs at live band events.
               </p>
             </div>
           </div>

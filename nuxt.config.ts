@@ -22,7 +22,7 @@ export default defineNuxtConfig({
 
                 //StyleSheets
                 { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css' },
-                { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' },
+                // { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' },
                 // { rel: 'stylesheet', media: 'screen', href: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css' },
             ]
         }
@@ -47,6 +47,7 @@ export default defineNuxtConfig({
   // },
   css: [
     // '~/assets/css/style.css',
+    '~/assets/css/alb.css',
     '~/assets/css/khan.css',
     // 'bootstrap/scss/bootstrap.scss',
     // '~/assets/css/foot.scss',
