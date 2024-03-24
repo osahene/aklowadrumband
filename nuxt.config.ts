@@ -26,7 +26,8 @@ export default defineNuxtConfig({
         }
   },
   build: {
-  transpile: ['@fortawesome/vue-fontawesome']
+  transpile: ['@fortawesome/vue-fontawesome'],
+  chunkSizeWarningLimit: 1600
 },
   modules: [
     'usebootstrap',
