@@ -79,12 +79,16 @@ jobs:
 
   # Deployment job
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  runs-on: ubuntu-latest
+  needs: build  # This ensures the build job finishes before deployment
+  steps:
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v4
+      with:
+        path: ./dist  # Specify the path to your built output folder
+
+    - name: Deploy to GitHub Pages
+      id: deployment  # Give this step an ID for referencing the output URL
+      uses: actions/deploy-pages@v4
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
