@@ -1,0 +1,220 @@
+{
+  "resolvedId": "C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/components/parts/portFolio.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <div id=\"gallery\">\r\n      <div class=\"py-4 py-lg-5\">\r\n        <h2 class=\"text-center mt-0\">Gallery</h2>\r\n        <hr class=\"divider\" />\r\n        <div class=\"container-fluid p-0\">\r\n          <div class=\"row g-0\">\r\n            <div class=\"col-lg-6 col-sm-auto\">\r\n              <a\r\n                class=\"portfolio-box\"\r\n                href=\"../../assets/img/portfolio/fullsize/1.jpg\"\r\n                title=\"Project Name\"\r\n              >\r\n                <img\r\n                  class=\"img-fluid\"\r\n                  src=\"../../assets/img/proper/W1.jpg\"\r\n                  alt=\"...\"\r\n                />\r\n                <div class=\"portfolio-box-caption\">\r\n                  <div class=\"project-category text-white-50\">Category</div>\r\n                  <div class=\"project-name\">Project Name</div>\r\n                </div>\r\n              </a>\r\n            </div>\r\n            <div class=\"col-lg-6 col-sm-auto\">\r\n              <a\r\n                class=\"portfolio-box\"\r\n                href=\"../../assets/img/proper/W3.jpg\"\r\n                title=\"Project Name\"\r\n              >\r\n                <img\r\n                  class=\"img-fluid\"\r\n                  src=\"../../assets/img/proper/W4.jpeg\"\r\n                  alt=\"...\"\r\n                />\r\n                <div class=\"portfolio-box-caption\">\r\n                  <!-- <div class=\"project-category text-white-50\">Category</div> -->\r\n                  <div class=\"project-name\">Adelaide Fringe</div>\r\n                </div>\r\n              </a>\r\n            </div>\r\n            <div class=\"col-lg-6 col-sm-auto\">\r\n              <a\r\n                class=\"portfolio-box\"\r\n                href=\"../../assets/img/portfolio/fullsize/3.jpg\"\r\n                title=\"Project Name\"\r\n              >\r\n                <img\r\n                  class=\"img-fluid\"\r\n                  src=\"../../assets/img/proper/W3.jpg\"\r\n                  alt=\"...\"\r\n                />\r\n                <div class=\"portfolio-box-caption\">\r\n                  <div class=\"project-category text-white-50\">Category</div>\r\n                  <div class=\"project-name\">Project Name</div>\r\n                </div>\r\n              </a>\r\n            </div>\r\n            <div class=\"col-lg-6 col-sm-auto\">\r\n              <a\r\n                class=\"portfolio-box\"\r\n                href=\"../../assets/img/portfolio/fullsize/4.jpg\"\r\n                title=\"Project Name\"\r\n              >\r\n                <img\r\n                  class=\"img-fluid\"\r\n                  src=\"../../assets/img/proper/Trad.jpeg\"\r\n                  alt=\"...\"\r\n                />\r\n                <div class=\"portfolio-box-caption\">\r\n                  <div class=\"project-category text-white-50\">Category</div>\r\n                  <div class=\"project-name\">Project Name</div>\r\n                </div>\r\n              </a>\r\n            </div>\r\n            <!-- <div class=\"col-lg-4 col-sm-6\">\r\n            <a\r\n              class=\"portfolio-box\"\r\n              href=\"../../assets/img/portfolio/fullsize/5.jpg\"\r\n              title=\"Project Name\"\r\n            >\r\n              <img\r\n                class=\"img-fluid\"\r\n                src=\"../../assets/img/portfolio/thumbnails/5.jpg\"\r\n                alt=\"...\"\r\n              />\r\n              <div class=\"portfolio-box-caption\">\r\n                <div class=\"project-category text-white-50\">Category</div>\r\n                <div class=\"project-name\">Project Name</div>\r\n              </div>\r\n            </a>\r\n          </div>\r\n          <div class=\"col-lg-4 col-sm-6\">\r\n            <a\r\n              class=\"portfolio-box\"\r\n              href=\"../../assets/img/portfolio/fullsize/6.jpg\"\r\n              title=\"Project Name\"\r\n            >\r\n              <img\r\n                class=\"img-fluid\"\r\n                src=\"../../assets/img/portfolio/thumbnails/6.jpg\"\r\n                alt=\"...\"\r\n              />\r\n              <div class=\"portfolio-box-caption p-3\">\r\n                <div class=\"project-category text-white-50\">Category</div>\r\n                <div class=\"project-name\">Project Name</div>\r\n              </div>\r\n            </a>\r\n          </div> -->\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n",
+      "start": 1711291556437,
+      "end": 1711291556969,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1711291556969,
+      "end": 1711291556969,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1711291556969,
+      "end": 1711291556969,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1711291556969,
+      "end": 1711291556969,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1711291556969,
+      "end": 1711291556969,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1711291556969,
+      "end": 1711291556969,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1711291556969,
+      "end": 1711291556969,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1711291556969,
+      "end": 1711291556969,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '../../assets/img/proper/W1.jpg'\nimport _imports_1 from '../../assets/img/proper/W4.jpeg'\nimport _imports_2 from '../../assets/img/proper/W3.jpg'\nimport _imports_3 from '../../assets/img/proper/Trad.jpeg'\n\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<div id=\\\"gallery\\\"><div class=\\\"py-4 py-lg-5\\\"><h2 class=\\\"text-center mt-0\\\">Gallery</h2><hr class=\\\"divider\\\"><div class=\\\"container-fluid p-0\\\"><div class=\\\"row g-0\\\"><div class=\\\"col-lg-6 col-sm-auto\\\"><a class=\\\"portfolio-box\\\" href=\\\"../../assets/img/portfolio/fullsize/1.jpg\\\" title=\\\"Project Name\\\"><img class=\\\"img-fluid\\\" src=\\\"\" + _imports_0 + \"\\\" alt=\\\"...\\\"><div class=\\\"portfolio-box-caption\\\"><div class=\\\"project-category text-white-50\\\">Category</div><div class=\\\"project-name\\\">Project Name</div></div></a></div><div class=\\\"col-lg-6 col-sm-auto\\\"><a class=\\\"portfolio-box\\\" href=\\\"../../assets/img/proper/W3.jpg\\\" title=\\\"Project Name\\\"><img class=\\\"img-fluid\\\" src=\\\"\" + _imports_1 + \"\\\" alt=\\\"...\\\"><div class=\\\"portfolio-box-caption\\\"><div class=\\\"project-name\\\">Adelaide Fringe</div></div></a></div><div class=\\\"col-lg-6 col-sm-auto\\\"><a class=\\\"portfolio-box\\\" href=\\\"../../assets/img/portfolio/fullsize/3.jpg\\\" title=\\\"Project Name\\\"><img class=\\\"img-fluid\\\" src=\\\"\" + _imports_2 + \"\\\" alt=\\\"...\\\"><div class=\\\"portfolio-box-caption\\\"><div class=\\\"project-category text-white-50\\\">Category</div><div class=\\\"project-name\\\">Project Name</div></div></a></div><div class=\\\"col-lg-6 col-sm-auto\\\"><a class=\\\"portfolio-box\\\" href=\\\"../../assets/img/portfolio/fullsize/4.jpg\\\" title=\\\"Project Name\\\"><img class=\\\"img-fluid\\\" src=\\\"\" + _imports_3 + \"\\\" alt=\\\"...\\\"><div class=\\\"portfolio-box-caption\\\"><div class=\\\"project-category text-white-50\\\">Category</div><div class=\\\"project-name\\\">Project Name</div></div></a></div></div></div></div></div>\", 1)\nconst _hoisted_2 = [\n  _hoisted_1\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", null, _hoisted_2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1711291556969,
+      "end": 1711291556974,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1711291556974,
+      "end": 1711291556974,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291556974,
+      "end": 1711291556974,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1711291556974,
+      "end": 1711291556974,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1711291556974,
+      "end": 1711291556974,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1711291556974,
+      "end": 1711291556974,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1711291556974,
+      "end": 1711291556974,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291556974,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1711291556975,
+      "end": 1711291556975,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1711291556975,
+      "end": 1711291556976,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1711291556976,
+      "end": 1711291556976,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1711291556976,
+      "end": 1711291556976,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1711291556976,
+      "end": 1711291556976,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1711291556976,
+      "end": 1711291556976,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1711291556976,
+      "end": 1711291556977,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1711291556977,
+      "end": 1711291556977,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1711291556977,
+      "end": 1711291556977,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1711291556977,
+      "end": 1711291556977,
+      "order": "normal"
+    }
+  ]
+}

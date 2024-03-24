@@ -1,0 +1,17 @@
+{
+  "resolvedId": "C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/node_modules/nuxt/dist/app/types.js",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "",
+      "start": 1711291556451,
+      "end": 1711291556451
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1711291556451,
+      "end": 1711291556451,
+      "order": "normal"
+    }
+  ]
+}

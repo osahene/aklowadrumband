@@ -1,7 +1,10 @@
+import { Static } from "vue";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
+  target: Static,
   app: {
     baseURL: '/aklowadrumband/', // baseURL: '/<repository>/'
     buildAssetsDir: 'assets',
@@ -27,7 +30,10 @@ export default defineNuxtConfig({
   },
   build: {
   transpile: ['@fortawesome/vue-fontawesome'],
-  chunkSizeWarningLimit: 1600
+    chunkSizeWarningLimit: 1600,
+  cssMinify: {
+      preset: 'default',
+    },
 },
   modules: [
     'usebootstrap',

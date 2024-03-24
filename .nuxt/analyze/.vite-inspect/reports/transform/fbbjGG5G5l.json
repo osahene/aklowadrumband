@@ -1,0 +1,220 @@
+{
+  "resolvedId": "C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/app.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <NuxtLayout>\n    <NuxtPage />\n  </NuxtLayout>\n</template>\n<script setup lang=\"ts\">\nuseHead({\n  title: \"Aklowa Drum Band | Home\",\n  meta: [\n    {\n      name: \"description\",\n      content: \"This is the official website for Aklowa Drum Band.\",\n    },\n  ],\n  bodyAttrs: {\n    class: \"test\",\n  },\n  script: [{ innerHTML: \"console.log('Hello world')\" }],\n});\nuseSeoMeta({\n  title: \"Aklowa Drum Band\",\n  ogTitle: \"Aklowa Drum Band\",\n  description:\n    \"This is the official website for Aklowa Drum Band. Feel free to contact us for all your programs.\",\n  ogDescription:\n    \"This is the official website for Aklowa Drum Band. Feel free to contact us for all your programs.\",\n  ogImage: \"./assets/img/proper/aklowalogo.png\",\n  twitterCard: \"summary_large_image\",\n});\n</script>\n",
+      "start": 1711291555861,
+      "end": 1711291556131,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1711291556131,
+      "end": 1711291556131,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1711291556131,
+      "end": 1711291556131,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1711291556131,
+      "end": 1711291556131,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1711291556131,
+      "end": 1711291556131,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1711291556131,
+      "end": 1711291556131,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1711291556131,
+      "end": 1711291556131,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1711291556131,
+      "end": 1711291556131,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/app.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/app.vue?vue&type=script&setup=true&lang.ts\";\nexport default _sfc_main;\n",
+      "start": 1711291556131,
+      "end": 1711291557155,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1711291557155,
+      "end": 1711291557155,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291557155,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1711291557156,
+      "end": 1711291557156,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1711291557156,
+      "end": 1711291557157,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1711291557157,
+      "end": 1711291557157,
+      "order": "normal"
+    }
+  ]
+}

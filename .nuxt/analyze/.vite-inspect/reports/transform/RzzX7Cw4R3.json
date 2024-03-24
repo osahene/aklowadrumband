@@ -1,0 +1,220 @@
+{
+  "resolvedId": "C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/components/parts/About.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <section class=\"page-section bg-primary py-5\" id=\"about\">\r\n      <div class=\"container px-4 px-lg-5\">\r\n        <div class=\"row gx-4 gx-lg-5 justify-content-center\">\r\n          <div class=\"col-lg-8 text-center\">\r\n            <h2 class=\"text-white mt-0\">Who we are</h2>\r\n            <hr class=\"divider divider-light\" />\r\n            <p class=\"text-white-75 mb-4\">\r\n              Aklowa Drum Band is part of Aklowa UK Organization. This mother\r\n              organization was setup by the late Felix Cobbson in the year 1977.\r\n              He introduced the element of Traditional African Culture to\r\n              thousands of people who visited the African Village at United\r\n              Kingdom.\r\n              <br />\r\n              Currently, the group has a repertory of 32 traditional African\r\n              cutural dance, 12 contemporary dance pieces and more than 1,000\r\n              African folk songs and rhythms.\r\n            </p>\r\n            <a class=\"btn btn-light btn-xl\" href=\"#services\">Get Started!</a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </section>\r\n  </div>\r\n</template>\r\n",
+      "start": 1711291556308,
+      "end": 1711291556925,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1711291556925,
+      "end": 1711291556925,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1711291556925,
+      "end": 1711291556925,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1711291556925,
+      "end": 1711291556925,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1711291556925,
+      "end": 1711291556925,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1711291556925,
+      "end": 1711291556925,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1711291556925,
+      "end": 1711291556925,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1711291556925,
+      "end": 1711291556925,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<section class=\\\"page-section bg-primary py-5\\\" id=\\\"about\\\"><div class=\\\"container px-4 px-lg-5\\\"><div class=\\\"row gx-4 gx-lg-5 justify-content-center\\\"><div class=\\\"col-lg-8 text-center\\\"><h2 class=\\\"text-white mt-0\\\">Who we are</h2><hr class=\\\"divider divider-light\\\"><p class=\\\"text-white-75 mb-4\\\"> Aklowa Drum Band is part of Aklowa UK Organization. This mother organization was setup by the late Felix Cobbson in the year 1977. He introduced the element of Traditional African Culture to thousands of people who visited the African Village at United Kingdom. <br> Currently, the group has a repertory of 32 traditional African cutural dance, 12 contemporary dance pieces and more than 1,000 African folk songs and rhythms. </p><a class=\\\"btn btn-light btn-xl\\\" href=\\\"#services\\\">Get Started!</a></div></div></div></section>\", 1)\nconst _hoisted_2 = [\n  _hoisted_1\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", null, _hoisted_2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1711291556925,
+      "end": 1711291556928,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1711291556928,
+      "end": 1711291556928,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291556928,
+      "end": 1711291556928,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1711291556928,
+      "end": 1711291556928,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1711291556928,
+      "end": 1711291556928,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1711291556928,
+      "end": 1711291556928,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1711291556928,
+      "end": 1711291556928,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291556928,
+      "end": 1711291556928,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1711291556929,
+      "end": 1711291556929,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1711291556929,
+      "end": 1711291556930,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1711291556930,
+      "end": 1711291556930,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1711291556930,
+      "end": 1711291556930,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1711291556930,
+      "end": 1711291556930,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1711291556930,
+      "end": 1711291556930,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1711291556930,
+      "end": 1711291556931,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1711291556931,
+      "end": 1711291556931,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1711291556931,
+      "end": 1711291556931,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1711291556931,
+      "end": 1711291556931,
+      "order": "normal"
+    }
+  ]
+}

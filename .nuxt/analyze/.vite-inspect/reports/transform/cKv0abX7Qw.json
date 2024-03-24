@@ -1,0 +1,216 @@
+{
+  "resolvedId": "C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/node_modules/usebootstrap/dist/runtime/utils/useProps.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { unref } from \"vue\";\nimport {\n  set,\n  forOwn,\n  isEmpty,\n  pickBy,\n  isArray,\n  isBoolean,\n  startsWithBreakPoint,\n  isNumber,\n  isString\n} from \"./helpers.mjs\";\nexport function hProps(...items) {\n  const result = {\n    class: {},\n    style: {}\n  };\n  const events = /* @__PURE__ */ new Map();\n  items.forEach((item) => {\n    result.class && Object.assign(result.class, unref(item.class));\n    result.style && Object.assign(result.style, unref(item.style));\n    Object.assign(result, unref(item.attr));\n    if (item.ref) {\n      set(result, \"ref\", item.ref);\n    }\n    forOwn(item.event, (value, key) => {\n      if (events.has(key)) {\n        events.get(key)?.push(value);\n      } else {\n        const funcs = [value];\n        events.set(key, funcs);\n        const val = (payload) => {\n          events.get(key)?.forEach((func) => func(payload));\n        };\n        result[key] = val;\n      }\n    });\n  });\n  if (result.class && isEmpty(pickBy(result.class))) {\n    delete result.class;\n  }\n  if (result.style && isEmpty(pickBy(result.style))) {\n    delete result.style;\n  }\n  return result;\n}\nexport function hSlots(...slots) {\n  return slots.map((value) => {\n    return value ? value() : void 0;\n  });\n}\nexport function addClassNames(value, func) {\n  const classObject = {};\n  const values = toArray(value);\n  values.forEach((n) => {\n    classObject[func(n)] = true;\n  });\n  return classObject;\n}\nexport function addProp(test, name, value) {\n  return ((test || isNumber(test)) && value ? true : false) && { [name]: value };\n}\nexport function isPropUndefined(value) {\n  return !isString(value) && (value == void 0 || value == false);\n}\nexport function isPropDefined(value) {\n  return !isPropUndefined(value);\n}\nexport function isNumrable(value) {\n  return !isNaN(parseInt(value));\n}\nexport function hasValue(value) {\n  return isString(value) && value || isNumber(value) || isArray(value);\n}\nexport function isTrue(value) {\n  if (isBoolean(value)) {\n    return value;\n  }\n  if (isString(value)) {\n    if (value.toLowerCase() == \"true\" || value == \"\") {\n      return true;\n    }\n  }\n  return false;\n}\nexport function toNum(value) {\n  if (isNumber(value)) {\n    return value;\n  }\n  if (isNumrable(value)) {\n    return parseInt(value);\n  }\n  return 0;\n}\nexport function toArray(value) {\n  if (isArray(value)) {\n    return value;\n  }\n  if (isString(value)) {\n    return value.split(\" \").filter((item) => item);\n  }\n  if (value == void 0 || value == false) {\n    return [];\n  }\n  return [value];\n}\nexport function exposeMethods(context, ...items) {\n  const result = {};\n  const methods = /* @__PURE__ */ new Map();\n  items.forEach((item) => {\n    forOwn(item.method, (value, key) => {\n      if (methods.has(key)) {\n        methods.get(key)?.push(value);\n      } else {\n        const funcs = [value];\n        methods.set(key, funcs);\n        const val = (...payloads) => {\n          methods.get(key)?.forEach((func) => func(payloads));\n        };\n        result[key] = val;\n      }\n    });\n  });\n  if (!isEmpty(result)) {\n    context.expose(result);\n  }\n}\nexport function spacing(val, tag) {\n  if (isNumrable(val)) {\n    return `${tag}-${val}`;\n  }\n  if (startsWithBreakPoint(val)) {\n    return `${tag}-${val}`;\n  }\n  if (val == \"auto\") {\n    return `${tag}-${val}`;\n  }\n  return `${tag}${val}`;\n}\n",
+      "start": 1711291556119,
+      "end": 1711291556550,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1711291556550,
+      "end": 1711291556550,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291556550,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1711291556551,
+      "end": 1711291556551,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1711291556551,
+      "end": 1711291556552,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1711291556552,
+      "end": 1711291556552,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1711291556552,
+      "end": 1711291556552,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1711291556552,
+      "end": 1711291556552,
+      "order": "normal"
+    }
+  ]
+}

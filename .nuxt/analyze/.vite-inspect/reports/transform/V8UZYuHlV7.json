@@ -1,0 +1,220 @@
+{
+  "resolvedId": "C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/components/parts/Service.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <section class=\"page-section bg-light\" id=\"services\">\r\n      <div class=\"container px-4 px-lg-5\">\r\n        <h2 class=\"text-center mt-0\">At Your Service</h2>\r\n        <hr class=\"divider\" />\r\n        <div class=\"row gx-4 gx-lg-5\">\r\n          <div class=\"col-lg-3 col-md-6 text-center\">\r\n            <div class=\"mt-5\">\r\n              <div class=\"mb-2\"><img class=\"serv_img fs-1 text-primary\" src=\"../../assets/img/proper/party-.svg\"></img></div>\r\n              <h3 class=\"h4 mb-2\">African Dance</h3>\r\n              <p class=\"text-muted mb-0\">\r\n                We are well known for giving splendid display of pure african dance at both local and international events.\r\n              </p>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-3 col-md-6 text-center\">\r\n            <div class=\"mt-5\">\r\n              <div class=\"mb-2\">\r\n                <img class=\"serv_img fs-1 text-primary\" src=\"../../assets/img/proper/drum.svg\"></img>\r\n              </div>\r\n              <h3 class=\"h4 mb-2\">Traditional Songs</h3>\r\n              <p class=\"text-muted mb-0\">\r\n                We have a repertoire of traditional songs for all occasions. We perform such songs at events.\r\n              </p>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-3 col-md-6 text-center\">\r\n            <div class=\"mt-5\">\r\n              <div class=\"mb-2\"><img class=\"serv_img fs-1 text-primary\" src=\"../../assets/img/proper/dancing.svg\"></img></div>\r\n              <h3 class=\"h4 mb-2\">Contemporary Dance</h3>\r\n              <p class=\"text-muted mb-0\">\r\n                We are not stuck with only the old genre. We perform contemporary dance with has a blend of both the african and the foreign twist.\r\n              </p>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-3 col-md-6 text-center\">\r\n            <div class=\"mt-5\">\r\n              <div class=\"mb-2\"><img class=\"serv_img fs-1 text-primary\" src=\"../../assets/img/proper/microphone-.svg\"></img></div>\r\n              <h3 class=\"h4 mb-2\">Contemporary Songs</h3>\r\n              <p class=\"text-muted mb-0\">\r\n                Aside the traditional, we perform a class of our contemporary songs at live band events.\r\n              </p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </section>\r\n  </div>\r\n</template>\r\n",
+      "start": 1711291556312,
+      "end": 1711291556931,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1711291556931,
+      "end": 1711291556931,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1711291556931,
+      "end": 1711291556932,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1711291556932,
+      "end": 1711291556932,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1711291556932,
+      "end": 1711291556932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1711291556932,
+      "end": 1711291556932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1711291556932,
+      "end": 1711291556932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1711291556933,
+      "end": 1711291556933,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '../../assets/img/proper/party-.svg'\nimport _imports_1 from '../../assets/img/proper/drum.svg'\nimport _imports_2 from '../../assets/img/proper/dancing.svg'\nimport _imports_3 from '../../assets/img/proper/microphone-.svg'\n\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<section class=\\\"page-section bg-light\\\" id=\\\"services\\\"><div class=\\\"container px-4 px-lg-5\\\"><h2 class=\\\"text-center mt-0\\\">At Your Service</h2><hr class=\\\"divider\\\"><div class=\\\"row gx-4 gx-lg-5\\\"><div class=\\\"col-lg-3 col-md-6 text-center\\\"><div class=\\\"mt-5\\\"><div class=\\\"mb-2\\\"><img class=\\\"serv_img fs-1 text-primary\\\" src=\\\"\" + _imports_0 + \"\\\"></div><h3 class=\\\"h4 mb-2\\\">African Dance</h3><p class=\\\"text-muted mb-0\\\"> We are well known for giving splendid display of pure african dance at both local and international events. </p></div></div><div class=\\\"col-lg-3 col-md-6 text-center\\\"><div class=\\\"mt-5\\\"><div class=\\\"mb-2\\\"><img class=\\\"serv_img fs-1 text-primary\\\" src=\\\"\" + _imports_1 + \"\\\"></div><h3 class=\\\"h4 mb-2\\\">Traditional Songs</h3><p class=\\\"text-muted mb-0\\\"> We have a repertoire of traditional songs for all occasions. We perform such songs at events. </p></div></div><div class=\\\"col-lg-3 col-md-6 text-center\\\"><div class=\\\"mt-5\\\"><div class=\\\"mb-2\\\"><img class=\\\"serv_img fs-1 text-primary\\\" src=\\\"\" + _imports_2 + \"\\\"></div><h3 class=\\\"h4 mb-2\\\">Contemporary Dance</h3><p class=\\\"text-muted mb-0\\\"> We are not stuck with only the old genre. We perform contemporary dance with has a blend of both the african and the foreign twist. </p></div></div><div class=\\\"col-lg-3 col-md-6 text-center\\\"><div class=\\\"mt-5\\\"><div class=\\\"mb-2\\\"><img class=\\\"serv_img fs-1 text-primary\\\" src=\\\"\" + _imports_3 + \"\\\"></div><h3 class=\\\"h4 mb-2\\\">Contemporary Songs</h3><p class=\\\"text-muted mb-0\\\"> Aside the traditional, we perform a class of our contemporary songs at live band events. </p></div></div></div></div></section>\", 1)\nconst _hoisted_2 = [\n  _hoisted_1\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", null, _hoisted_2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1711291556933,
+      "end": 1711291556942,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1711291556942,
+      "end": 1711291556942,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291556942,
+      "end": 1711291556942,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1711291556942,
+      "end": 1711291556942,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1711291556942,
+      "end": 1711291556942,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1711291556942,
+      "end": 1711291556942,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1711291556942,
+      "end": 1711291556942,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1711291556943,
+      "end": 1711291556943,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1711291556943,
+      "end": 1711291556945,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1711291556945,
+      "end": 1711291556945,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1711291556945,
+      "end": 1711291556946,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1711291556946,
+      "end": 1711291556946,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1711291556946,
+      "end": 1711291556946,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1711291556946,
+      "end": 1711291556946,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1711291556946,
+      "end": 1711291556946,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1711291556946,
+      "end": 1711291556946,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1711291556946,
+      "end": 1711291556946,
+      "order": "normal"
+    }
+  ]
+}

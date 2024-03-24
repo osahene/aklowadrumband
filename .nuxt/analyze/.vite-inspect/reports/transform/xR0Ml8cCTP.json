@@ -1,0 +1,216 @@
+{
+  "resolvedId": "C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/node_modules/usebootstrap/dist/runtime/composables/directive/useDirective.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { spacing, toArray, hasValue } from \"../../utils/useProps.mjs\";\nexport function useDirective(element) {\n  if (element && element.attributes) {\n    for (const attr of element.attributes) {\n      switch (attr.name) {\n        case \"text-break\":\n          element.classList.add(\n            `text-break`\n          );\n          break;\n        case \"text-alignment\":\n          element.classList.add(\n            `text-${attr.value}`\n          );\n          break;\n        case \"text-wrap\":\n          element.classList.add(\n            `text-${attr.value}`\n          );\n          break;\n        case \"align-self\":\n          element.classList.add(\n            `align-self-${attr.value}`\n          );\n          break;\n        case \"align-items\":\n          element.classList.add(\n            `align-items-${attr.value}`\n          );\n          break;\n        case \"align-content\":\n          element.classList.add(\n            `align-content-${attr.value}`\n          );\n          break;\n        case \"flex\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `d${hasValue(attr.value) ? `-${n}` : \"\"}-flex`)\n          );\n          break;\n        case \"flex-direction\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `flex-${n}`)\n          );\n          break;\n        case \"flex-fill\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `flex${hasValue(attr.value) ? `-${n}` : \"\"}-fill`)\n          );\n          break;\n        case \"flex-grow\":\n          element.classList.add(\n            `flex-${attr.value}`\n          );\n          break;\n        case \"flex-wrap\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `flex-${n}`)\n          );\n          break;\n        case \"flex-order\":\n          element.classList.add(\n            `order-${attr.value}`\n          );\n          break;\n        case \"float\":\n          element.classList.add(\n            `float-${attr.value}`\n          );\n          break;\n        case \"shadow\":\n          element.classList.add(\n            `shadow${hasValue(attr.value) ? `-${attr.value}` : \"\"}`\n          );\n          break;\n        case \"ratio\":\n          element.classList.add(\n            `ratio-${attr.value}`\n          );\n          break;\n        case \"fixed\":\n          element.classList.add(\n            `fixed-${attr.value}`\n          );\n          break;\n        case \"sticky\":\n          element.classList.add(\n            `sticky-top`\n          );\n          break;\n        case \"overflow\":\n          element.classList.add(\n            `overflow-${attr.value}`\n          );\n          break;\n        case \"table-responsive\":\n          element.classList.add(\n            `table-responsive${hasValue(attr.value) ? `-${attr.value}` : \"\"}`\n          );\n          break;\n        case \"justify-content\":\n          element.classList.add(\n            `justify-content-${attr.value}`\n          );\n          break;\n        case \"align\":\n          element.classList.add(\n            `align-${attr.value}`\n          );\n          break;\n        case \"order\":\n          element.classList.add(\n            `order-${attr.value}`\n          );\n          break;\n        case \"offset\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `offset-${n}`)\n          );\n          break;\n        case \"object-fit\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `object-fit-${n}`)\n          );\n          break;\n        case \"z\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `z-${n}`)\n          );\n          break;\n        case \"font-size\":\n          element.classList.add(\n            `fs-${attr.value}`\n          );\n          break;\n        case \"font-weight\":\n          element.classList.add(\n            `fw-${attr.value}`\n          );\n          break;\n        case \"font-style\":\n          element.classList.add(\n            `fst-${attr.value}`\n          );\n          break;\n        case \"line-height\":\n          element.classList.add(\n            `lh-${attr.value}`\n          );\n          break;\n        case \"font-monospace\":\n          element.classList.add(\n            `font-monospace`\n          );\n          break;\n        case \"text-reset\":\n          element.classList.add(\n            `text-reset`\n          );\n          break;\n        case \"text-decoration\":\n          element.classList.add(\n            `text-decoration-${attr.value}`\n          );\n          break;\n        case \"text-truncate\":\n          element.classList.add(\n            `text-truncate`\n          );\n          break;\n        case \"text-transform\":\n          element.classList.add(\n            `text-${attr.value}`\n          );\n          break;\n        case \"text-background\":\n          element.classList.add(\n            `text-bg-${attr.value}`\n          );\n          break;\n        case \"headings\":\n          element.classList.add(\n            `h${attr.value}`\n          );\n          break;\n        case \"text-color\":\n          element.classList.add(\n            `text-${attr.value}`\n          );\n          break;\n        case \"padding\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => spacing(n, \"p\"))\n          );\n          break;\n        case \"margin\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => spacing(n, \"m\"))\n          );\n          break;\n        case \"gap\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `gap-${n}`)\n          );\n          break;\n        case \"visually-hidden\":\n          element.classList.add(\n            `visually-hidden${hasValue(attr.value) ? `-${attr.value}` : \"\"}`\n          );\n          break;\n        case \"vertical-Align\":\n          element.classList.add(\n            `align-${attr.value}`\n          );\n          break;\n        case \"user-select\":\n          element.classList.add(\n            `user-select-${attr.value}`\n          );\n          break;\n        case \"pointer-events\":\n          element.classList.add(\n            `pe-${attr.value}`\n          );\n          break;\n        case \"background-color\":\n          element.classList.add(\n            `bg-${attr.value}`\n          );\n          break;\n        case \"background-gradient\":\n          element.classList.add(\n            `bg-gradient`\n          );\n          break;\n        case \"background-opacity\":\n          element.classList.add(\n            `bg-opacity-${attr.value}`\n          );\n          break;\n        case \"relative-width\":\n          element.classList.add(\n            `w-${attr.value}`\n          );\n          break;\n        case \"relative-height\":\n          element.classList.add(\n            `h-${attr.value}`\n          );\n          break;\n        case \"max-width\":\n          element.classList.add(\n            `mw-100`\n          );\n          break;\n        case \"max-height\":\n          element.classList.add(\n            `mh-100`\n          );\n          break;\n        case \"viewport-width\":\n          element.classList.add(\n            `vw-100`\n          );\n          break;\n        case \"viewport-height\":\n          element.classList.add(\n            `vh-100`\n          );\n          break;\n        case \"min-viewport-width\":\n          element.classList.add(\n            `min-vw-100`\n          );\n          break;\n        case \"min-viewport-height\":\n          element.classList.add(\n            `min-vh-100`\n          );\n          break;\n        case \"display\":\n          element.classList.add(\n            ...addClassNames(attr.value, (n) => `d-${n}`)\n          );\n          break;\n        case \"opacity\":\n          element.classList.add(\n            `opacity-${attr.value}`\n          );\n          break;\n        case \"placeholder\":\n          element.classList.add(\n            `placeholder${hasValue(attr.value) ? `-${attr.value}` : \"\"}`\n          );\n          break;\n        case \"placeholder-size\":\n          element.classList.add(\n            `placeholder-${attr.value}`\n          );\n          break;\n        case \"col\":\n          element.classList.add(\n            ...addClassNames(hasValue(attr.value), (n) => `col-${n}`)\n          );\n          break;\n        case \"position\":\n          element.classList.add(\n            `position-${attr.value}`\n          );\n          break;\n        case \"top\":\n          element.classList.add(\n            `top-${attr.value}`\n          );\n          break;\n        case \"start\":\n          element.classList.add(\n            `start-${attr.value}`\n          );\n          break;\n        case \"end\":\n          element.classList.add(\n            `end-${attr.value}`\n          );\n          break;\n        case \"bottom\":\n          element.classList.add(\n            `bottom-${attr.value}`\n          );\n          break;\n        case \"translate\":\n          element.classList.add(\n            `translate-${attr.value}`\n          );\n          break;\n        case \"focus-ring\":\n          element.classList.add(\n            `focus-ring`\n          );\n          break;\n        case \"border\":\n          element.classList.add(\n            `border${hasValue(attr.value) ? `-${attr.value}` : \"\"}`\n          );\n          break;\n        case \"border-color\":\n          element.classList.add(\n            `border-${attr.value}`\n          );\n          break;\n        case \"border-width\":\n          element.classList.add(\n            `border-${attr.value}`\n          );\n          break;\n        case \"rounded\":\n          element.classList.add(\n            `rounded${hasValue(attr.value) ? `-${attr.value}` : \"\"}`\n          );\n          break;\n        case \"rounded-size\":\n          element.classList.add(\n            `rounded-${attr.value}`\n          );\n          break;\n        case \"link-opacity\":\n          element.classList.add(\n            `link-opacity-${attr.value}`\n          );\n          break;\n        case \"link-underline\":\n          element.classList.add(\n            `link-underline`\n          );\n          element.classList.add(\n            ...addClassNames(hasValue(attr.value), (n) => `link-underline-opacity-${n}`)\n          );\n          break;\n        case \"link-offset\":\n          element.classList.add(\n            ...addClassNames(hasValue(attr.value), (n) => `link-offset-${n}`)\n          );\n      }\n    }\n  }\n}\nfunction addClassNames(value, func) {\n  const classArray = [];\n  const values = toArray(value);\n  values.forEach((n) => {\n    classArray.push(func(n));\n  });\n  return classArray;\n}\n",
+      "start": 1711291554219,
+      "end": 1711291555855,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1711291555855,
+      "end": 1711291555855,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1711291555855,
+      "end": 1711291555856,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1711291555856,
+      "end": 1711291555856,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1711291555857,
+      "end": 1711291555857,
+      "order": "normal"
+    }
+  ]
+}

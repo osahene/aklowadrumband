@@ -1,0 +1,1 @@
+export { default } from "file:///C:/Users/Osahene/workspace/DataStruct%20and%20Algos/aklowa/aklowa_web/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

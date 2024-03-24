@@ -1,0 +1,220 @@
+{
+  "resolvedId": "C:/Users/Osahene/workspace/DataStruct and Algos/aklowa/aklowa_web/components/AppFooter.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <section class=\"footers\">\r\n    <div class=\"\">\r\n      <!-- Footer -->\r\n      <footer class=\"text-center text-md-start text-white\">\r\n        <!-- Grid container -->\r\n        <div class=\"p-4 pb-0\">\r\n          <!-- Section: Links -->\r\n          <section class=\"\">\r\n            <!--Grid row-->\r\n            <div class=\"row\">\r\n              <!-- Grid column -->\r\n              <div class=\"col-md-12 col-lg-4 col-xl-4 mt-3\">\r\n                <h6 class=\"text-uppercase mb-4 font-weight-bold\">\r\n                  Aklowa Drum Band\r\n                </h6>\r\n                <p class=\"text-white\">\r\n                  We are available to you for all your events; both local and\r\n                  international. Get in touch with us for the best of African\r\n                  perfromances.\r\n                </p>\r\n              </div>\r\n\r\n              <!-- Grid column -->\r\n              <hr class=\"w-100 clearfix d-md-none\" />\r\n              <!-- Grid column -->\r\n              <div class=\"col-md-8 col-lg-8 col-xl-6 ms-6 mt-3\">\r\n                <h6 class=\"text-uppercase mb-4 font-weight-bold underline\">\r\n                  Contact\r\n                </h6>\r\n                <p>\r\n                  <font-awesome-icon :icon=\"['fas', 'phone']\" />\r\n                  <a href=\"tel:+ 01 234 567 89\">+ 61 423 420 465</a>\r\n                </p>\r\n                <p>\r\n                  <font-awesome-icon :icon=\"['fas', 'envelope-open-text']\" />\r\n                  <a href=\"mailto:tbc@tbc.co.uk\">info@aklowadb.au</a>\r\n                </p>\r\n                <!-- <p><i class=\"fas fa-home mr-3\"></i> Lorem Ipsum</p> -->\r\n              </div>\r\n              <!-- Grid column -->\r\n            </div>\r\n            <!--Grid row-->\r\n          </section>\r\n          <!-- Section: Links -->\r\n          <!-- Section: terms and conditions -->\r\n\r\n          <!-- Section: Links -->\r\n          <hr class=\"my-3\" />\r\n          <!-- Section: Copyright -->\r\n          <section>\r\n            <div class=\"row d-flex align-items-center\">\r\n              <!-- Grid column -->\r\n              <div class=\"col-md-7 col-lg-8 text-center text-md-start\">\r\n                <!-- Copyright -->\r\n                <p>\r\n                  <small\r\n                    >© Copyright 2024 Aklowa Drum Band, Registered no: 0000000\r\n                    (Australia) Registered office: Lorem Ipsum</small\r\n                  >\r\n                </p>\r\n                <!-- Copyright -->\r\n              </div>\r\n              <!-- Grid column -->\r\n              <!-- Grid column -->\r\n              <div class=\"col-md-5 col-lg-4 ml-lg-0 text-center text-md-end\">\r\n                <!-- Facebook -->\r\n                <a class=\"btn btn-outline-light btn-floating m-1\" role=\"button\"\r\n                  ><font-awesome-icon :icon=\"['fab', 'youtube']\"\r\n                /></a>\r\n                <!-- Twitter -->\r\n                <a class=\"btn btn-outline-light btn-floating m-1\" role=\"button\">\r\n                  <font-awesome-icon :icon=\"['fab', 'facebook']\" />\r\n                </a>\r\n                <!-- Google -->\r\n                <a class=\"btn btn-outline-light btn-floating m-1\" role=\"button\"\r\n                  ><font-awesome-icon :icon=\"['fab', 'instagram']\"\r\n                /></a>\r\n                <!-- Instagram -->\r\n                <a class=\"btn btn-outline-light btn-floating m-1\" role=\"button\"\r\n                  ><font-awesome-icon :icon=\"['fab', 'twitter']\"\r\n                /></a>\r\n              </div>\r\n              <!-- Grid column -->\r\n            </div>\r\n          </section>\r\n          <!-- Section: Copyright -->\r\n        </div>\r\n        <!-- Grid container -->\r\n      </footer>\r\n      <!-- Footer -->\r\n    </div>\r\n    <!-- End of .container -->\r\n    <section></section>\r\n  </section>\r\n</template>\r\n",
+      "start": 1711291556441,
+      "end": 1711291557018,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1711291557018,
+      "end": 1711291557018,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1711291557018,
+      "end": 1711291557018,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1711291557018,
+      "end": 1711291557018,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1711291557018,
+      "end": 1711291557018,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1711291557018,
+      "end": 1711291557018,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1711291557018,
+      "end": 1711291557018,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1711291557018,
+      "end": 1711291557018,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"footers\" }\nconst _hoisted_2 = { class: \"\" }\nconst _hoisted_3 = { class: \"text-center text-md-start text-white\" }\nconst _hoisted_4 = { class: \"p-4 pb-0\" }\nconst _hoisted_5 = { class: \"\" }\nconst _hoisted_6 = { class: \"row\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-md-12 col-lg-4 col-xl-4 mt-3\" }, [\n  /*#__PURE__*/_createElementVNode(\"h6\", { class: \"text-uppercase mb-4 font-weight-bold\" }, \" Aklowa Drum Band \"),\n  /*#__PURE__*/_createElementVNode(\"p\", { class: \"text-white\" }, \" We are available to you for all your events; both local and international. Get in touch with us for the best of African perfromances. \")\n], -1)\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"hr\", { class: \"w-100 clearfix d-md-none\" }, null, -1)\nconst _hoisted_9 = { class: \"col-md-8 col-lg-8 col-xl-6 ms-6 mt-3\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"h6\", { class: \"text-uppercase mb-4 font-weight-bold underline\" }, \" Contact \", -1)\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"a\", { href: \"tel:+ 01 234 567 89\" }, \"+ 61 423 420 465\", -1)\nconst _hoisted_12 = /*#__PURE__*/_createElementVNode(\"a\", { href: \"mailto:tbc@tbc.co.uk\" }, \"info@aklowadb.au\", -1)\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"hr\", { class: \"my-3\" }, null, -1)\nconst _hoisted_14 = { class: \"row d-flex align-items-center\" }\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-md-7 col-lg-8 text-center text-md-start\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, [\n    /*#__PURE__*/_createElementVNode(\"small\", null, \"© Copyright 2024 Aklowa Drum Band, Registered no: 0000000 (Australia) Registered office: Lorem Ipsum\")\n  ])\n], -1)\nconst _hoisted_16 = { class: \"col-md-5 col-lg-4 ml-lg-0 text-center text-md-end\" }\nconst _hoisted_17 = {\n  class: \"btn btn-outline-light btn-floating m-1\",\n  role: \"button\"\n}\nconst _hoisted_18 = {\n  class: \"btn btn-outline-light btn-floating m-1\",\n  role: \"button\"\n}\nconst _hoisted_19 = {\n  class: \"btn btn-outline-light btn-floating m-1\",\n  role: \"button\"\n}\nconst _hoisted_20 = {\n  class: \"btn btn-outline-light btn-floating m-1\",\n  role: \"button\"\n}\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"section\", null, null, -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_font_awesome_icon = _resolveComponent(\"font-awesome-icon\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"footer\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"section\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _hoisted_7,\n              _hoisted_8,\n              _createElementVNode(\"div\", _hoisted_9, [\n                _hoisted_10,\n                _createElementVNode(\"p\", null, [\n                  _createVNode(_component_font_awesome_icon, { icon: ['fas', 'phone'] }),\n                  _hoisted_11\n                ]),\n                _createElementVNode(\"p\", null, [\n                  _createVNode(_component_font_awesome_icon, { icon: ['fas', 'envelope-open-text'] }),\n                  _hoisted_12\n                ])\n              ])\n            ])\n          ]),\n          _hoisted_13,\n          _createElementVNode(\"section\", null, [\n            _createElementVNode(\"div\", _hoisted_14, [\n              _hoisted_15,\n              _createElementVNode(\"div\", _hoisted_16, [\n                _createElementVNode(\"a\", _hoisted_17, [\n                  _createVNode(_component_font_awesome_icon, { icon: ['fab', 'youtube'] })\n                ]),\n                _createElementVNode(\"a\", _hoisted_18, [\n                  _createVNode(_component_font_awesome_icon, { icon: ['fab', 'facebook'] })\n                ]),\n                _createElementVNode(\"a\", _hoisted_19, [\n                  _createVNode(_component_font_awesome_icon, { icon: ['fab', 'instagram'] })\n                ]),\n                _createElementVNode(\"a\", _hoisted_20, [\n                  _createVNode(_component_font_awesome_icon, { icon: ['fab', 'twitter'] })\n                ])\n              ])\n            ])\n          ])\n        ])\n      ])\n    ]),\n    _hoisted_21\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1711291557018,
+      "end": 1711291557022,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1711291557022,
+      "end": 1711291557022,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291557022,
+      "end": 1711291557022,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1711291557022,
+      "end": 1711291557022,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1711291557022,
+      "end": 1711291557022,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1711291557022,
+      "end": 1711291557022,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1711291557022,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1711291557023,
+      "end": 1711291557023,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1711291557023,
+      "end": 1711291557024,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1711291557024,
+      "end": 1711291557024,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1711291557024,
+      "end": 1711291557025,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1711291557025,
+      "end": 1711291557025,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1711291557025,
+      "end": 1711291557025,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1711291557025,
+      "end": 1711291557025,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1711291557025,
+      "end": 1711291557025,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1711291557025,
+      "end": 1711291557025,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1711291557025,
+      "end": 1711291557025,
+      "order": "normal"
+    }
+  ]
+}
