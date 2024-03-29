@@ -1,7 +1,8 @@
+import type Logo from './logo.vue';
 <template>
   <div>
     <nav
-      class="navbar navbar-expand-lg bg-gradient fixed-top py-3"
+      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
       id="mainNav"
     >
       <div class="container px-4 px-lg-5">
@@ -26,7 +27,7 @@
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#portfolio">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#albums">Albums</a>

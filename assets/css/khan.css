@@ -11444,7 +11444,7 @@ header.masthead .h1 {
 .main_text span {
   display: inline-block;
   font-size: 1.3rem;
-  color: var(--bs-black-rgb);
+  /* color: var(--bs-black-rgb); */
   /*   opacity: 0;
   transform: translate(50px, 0); */
 }
